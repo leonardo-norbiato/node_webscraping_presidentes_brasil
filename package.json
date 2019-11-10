@@ -1,0 +1,20 @@
+{
+  "name": "node-webscraping-presidentes-brasil",
+  "version": "1.0.0",
+  "description": "Raspador de dados de presidentes do brasil no wikipedia",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonardo Norbiato",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "fs-extra": "^8.1.0",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "xmldom": "^0.1.27",
+    "xpath": "0.0.27"
+  }
+}
